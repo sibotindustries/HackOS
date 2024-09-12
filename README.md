@@ -14,7 +14,7 @@
 
 ### Passo 1: Gravar a Imagem no USB com Balena Etcher
 
-Agora que a imagem `.img` foi gerada, você pode gravá-la no *stick* USB usando o **Balena Etcher**:
+Agora que você já tem o arquivo `.img`, você pode gravá-la no *stick* USB usando o **Balena Etcher**:
 
 1. **Baixe e instale o [Balena Etcher](https://www.balena.io/etcher/)** se ainda não o tiver.
    
