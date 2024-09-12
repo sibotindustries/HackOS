@@ -12,24 +12,7 @@
 
 ## Como Usar
 
-### Passo 1: Compilar o Sistema Operacional
-
-Antes de usar o HackOS, você precisará compilar os arquivos-fonte para criar uma imagem binária que possa ser gravada no *stick* USB.
-
-1. **Clone o repositório** para o seu ambiente de desenvolvimento:
-   ```bash
-   git clone https://github.com/seu-repositorio/hackos.git
-   cd hackos
-   ```
-
-2. **Compile o sistema operacional** usando o `Makefile` incluído:
-   ```bash
-   make
-   ```
-
-   Isso irá gerar uma imagem de disco `hackos.img` no diretório de trabalho atual.
-
-### Passo 2: Gravar a Imagem no USB com Balena Etcher
+### Passo 1: Gravar a Imagem no USB com Balena Etcher
 
 Agora que a imagem `.img` foi gerada, você pode gravá-la no *stick* USB usando o **Balena Etcher**:
 
@@ -44,7 +27,7 @@ Agora que a imagem `.img` foi gerada, você pode gravá-la no *stick* USB usando
 
 3. **Espere a gravação terminar** e ejete o *stick* USB.
 
-### Passo 3: Executar o HackOS
+### Passo 2: Executar o HackOS
 
 1. **Conecte o *stick* USB** ao computador onde deseja rodar o HackOS.
 2. **Reinicie o computador** e entre na BIOS/UEFI para configurar o boot a partir do *stick* USB.
